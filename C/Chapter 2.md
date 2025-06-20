@@ -14,6 +14,7 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
    ```
 
 2. Comments explain your code—use `/* ... */` or `// ...`.
+
 3. Variables must be **declared** before use:
 
    ```c
@@ -33,6 +34,7 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
    ```
 
 6. C has basic types: `int`, `float`, `double`, `char`.
+
 7. Input/output is handled with standard functions like `printf` and `scanf`:
 
    ```c
@@ -47,20 +49,35 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
    ```
 
 9. Variable names (identifiers) must start with a letter or underscore.
+
 10. Avoid using reserved keywords as variable names (e.g., `int`, `return`).
+
 11. Use meaningful names for readability:
 
+   ```c
+   float averageScore;
+   ```
+
 12. Whitespace (indentation, new lines) improves code readability.
+
 13. The `main` function must return an `int`:
+
    ```c
    return 0;
    ```
 
-15. Use semicolons to terminate each statement.
-16. You can group code using blocks `{ ... }`.
-17. Always initialize variables to avoid undefined behavior.
-18. Avoid common errors like missing semicolons or typos in function names.
-19. Compilation turns your code into an executable:
-   * `gcc program.c -o program`
+14. Use semicolons to terminate each statement.
+
+15. You can group code using blocks `{ ... }`.
+
+16. Always initialize variables to avoid undefined behavior.
+
+17. Avoid common errors like missing semicolons or typos in function names.
+
+18. Compilation turns your code into an executable:
+
+* `gcc program.c -o program`
+
 19. File structure matters: use `.c` for code and `.h` for declarations.
+
 20. Exercises at the end of the chapter help practice writing complete, basic programs.
