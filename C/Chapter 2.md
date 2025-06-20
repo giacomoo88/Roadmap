@@ -49,23 +49,23 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
 9. Variable names (identifiers) must start with a letter or underscore.
 10. Avoid using reserved keywords as variable names (e.g., `int`, `return`).
 11. Use meaningful names for readability:
-
-```c
-float averageScore;
-```
+    
+   ```c
+   float averageScore;
+   ```
 
 12. Whitespace (indentation, new lines) improves code readability.
 13. The `main` function must return an `int`:
 
-```c
-return 0;
-```
+   ```c
+   return 0;
+   ```
 
 14. Use semicolons to terminate each statement.
 15. You can group code using blocks `{ ... }`.
 16. Always initialize variables to avoid undefined behavior.
 17. Avoid common errors like missing semicolons or typos in function names.
 18. Compilation turns your code into an executable:
-* `gcc program.c -o program`
+   * `gcc program.c -o program`
 19. File structure matters: use `.c` for code and `.h` for declarations.
 20. Exercises at the end of the chapter help practice writing complete, basic programs.
