@@ -6,10 +6,6 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
 
 <br>
 
-Sure! Here's a 20-line summary of **Chapter 2: “C Fundamentals”** from *C Programming: A Modern Approach* by K. N. King, **with code snippets** to illustrate key points:
-
----
-
 1. A basic C program starts with a header and a `main` function:
 
    ```c
@@ -18,7 +14,6 @@ Sure! Here's a 20-line summary of **Chapter 2: “C Fundamentals”** from *C Pr
    ```
 
 2. Comments explain your code—use `/* ... */` or `// ...`.
-
 3. Variables must be **declared** before use:
 
    ```c
@@ -38,7 +33,6 @@ Sure! Here's a 20-line summary of **Chapter 2: “C Fundamentals”** from *C Pr
    ```
 
 6. C has basic types: `int`, `float`, `double`, `char`.
-
 7. Input/output is handled with standard functions like `printf` and `scanf`:
 
    ```c
@@ -53,9 +47,7 @@ Sure! Here's a 20-line summary of **Chapter 2: “C Fundamentals”** from *C Pr
    ```
 
 9. Variable names (identifiers) must start with a letter or underscore.
-
 10. Avoid using reserved keywords as variable names (e.g., `int`, `return`).
-
 11. Use meaningful names for readability:
 
 ```c
@@ -63,7 +55,6 @@ float averageScore;
 ```
 
 12. Whitespace (indentation, new lines) improves code readability.
-
 13. The `main` function must return an `int`:
 
 ```c
@@ -71,9 +62,7 @@ return 0;
 ```
 
 14. Use semicolons to terminate each statement.
-
 15. You can group code using blocks `{ ... }`.
-
 16. Always initialize variables to avoid undefined behavior.
 17. Avoid common errors like missing semicolons or typos in function names.
 18. Compilation turns your code into an executable:
