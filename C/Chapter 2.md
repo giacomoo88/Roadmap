@@ -49,8 +49,7 @@ Chapter 2 covers the fundamentals of writing simple C programs: it begins with
 9. Variable names (identifiers) must start with a letter or underscore.
 10. Avoid using reserved keywords as variable names (e.g., `int`, `return`).
 11. Use meaningful names for readability:
-    
-   ```c
+```c
    float averageScore;
    ```
 
