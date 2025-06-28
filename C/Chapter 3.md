@@ -12,7 +12,7 @@ Conversion specifier is described as **%±m.pX**
 
 The most used ones are:
 1. `%d` (integers)
-2. `%i` (various numbers format depending on the prefix --> 0x hexadecimal, 0 octal)
+2. `%i` (various number formats depending on the prefix --> 0x hexadecimal, 0 octal)
 4. `%f` (floating-point numbers)
 5. `%e` (scientific notation)
 6. `%g` (or `%f` or `%e`, depending on the numer of digits)
