@@ -12,9 +12,10 @@ Conversion specifier is described as **%±m.pX**
 
 The most used ones are:
 1. `%d` (integers)
-2. `%f` (floating-point numbers)
-3. `%e` (scientific notation)
-4. `%g` (or `%f` or `%e`, depending on the numer of digits)
+2. `%i` (various numbers format depending on the prefix --> 0x hexadecimal, 0 octal)
+4. `%f` (floating-point numbers)
+5. `%e` (scientific notation)
+6. `%g` (or `%f` or `%e`, depending on the numer of digits)
 
 The chapter introduces *formatting tools* like `\n` (newline), `\t` (tab), `\a` (alert bell), `\b` (backspace), `\\` (backslash) and `%%` (percent sign), which help organize output visually. It also explains how to control output alignment and spacing with *field width and precision modifiers*, e.g. `%5d` (minimum width), `%-5d` (left-aligned), and `%.2f` (two decimal places). For input, `scanf` is introduced with similar format specifiers, and the chapter discusses how whitespace and buffer behavior affect input reliability. Practical examples illustrate how to gather and display user data clearly. Lastly, the chapter gives an overview of tokens in C (keywords, constants, identifiers, etc.), laying the groundwork for understanding how formatted I/O fits into full C programs.
 
