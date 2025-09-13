@@ -1,33 +1,16 @@
-# 📚 Study Roadmap
+# Ethical Hacking Journey
 
-This repository contains monthly notes based on chapters read from books or resources. Each folder represents a specific topic, and inside each, you’ll find the chapter for every book
+This repository documents my journey into **ethical hacking**. It's a collection of projects, notes, and resources from my learning process. My goal is to share what I learn, solidify my knowledge, and perhaps inspire others.
 
-## 🗂️ Structure
+## Project Structure
 
-* **Folders**: One per topic (e.g., `C/`, `Python/`, etc.)
-* **Files**: Inside each folder:
+I will upload what I learned and how I learned it in each field of the Ethical Hacking world, starting from networking and OS basis to web exploit and more advanced things. <br>
+Doing this I want to help people that were in my same conditions, where I was learning frammented things from different sources and I had some difficulties to put everything together.<br>
+Hope this helps
 
-  * `Chapter x`: key concepts and notes for that month
+## Disclaimer
 
-## 📆 Purpose
+Content is for educational purposes only. All activities were conducted in **controlled lab environments** with explicit permission. Unauthorized use is prohibited.
 
-* Keep track of what you’ve learned month by month.
-* Quickly revisit essential concepts when needed.
-* Maintain an organized, modular study journal.
 
-## 📌 How to Use
-
-1. **Create a folder** for every new topic you start studying.
-2. **Each month**, add a new `Chapter x` file:
-
-   * Bullet points summarizing what you’ve learned.
-   * Practical examples.
-   * Any difficulties or follow-up points.
-
-## 🎯 Note Guidelines
-
-* Use **headings and subheadings** to structure content.
-* Prefer **bullet points** for clarity and ease of reading.
-* Include **short code snippets** where relevant.
-* Add **external links or references** for further study.
-
+Happy hacking! 💻
